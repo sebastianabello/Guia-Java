@@ -11,8 +11,8 @@ public class _08_EjemploStringMetodosArreglo {
         char[] arreglo = trabalenguas.toCharArray();
         int largo = arreglo.length;
         System.out.println("largo = " + largo);
-        for(int i = 0; i < largo; i++){
-            System.out.print(arreglo[i]);
+        for (char c : arreglo) {
+            System.out.print(c);
         }
         System.out.println();
         System.out.println("\ntrabalenguas = " + trabalenguas.split("a"));

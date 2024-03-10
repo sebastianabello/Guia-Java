@@ -1,6 +1,6 @@
 package _05_clasesWrapper;
 
-public class AutoBoxingInteger {
+public class _02_AutoBoxingInteger {
     public static void main(String[] args) {
 
         Integer[] enteros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

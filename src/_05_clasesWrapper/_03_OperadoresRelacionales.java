@@ -1,6 +1,6 @@
 package _05_clasesWrapper;
 
-public class OperadoresRelacionales {
+public class _03_OperadoresRelacionales {
     public static void main(String[] args) {
         Integer num1 = Integer.valueOf(200);
         Integer num2 = num1;

@@ -23,5 +23,10 @@ public class _04_ejemploVariablesDeEntorno {
 
         String homeDrive = getenv.get("HOMEDRIVE");
         System.out.println("homeDrive = " + homeDrive);
+
+        System.out.println("Listando variables de ambiente del sistema");
+        for (String key : getenv.keySet()) {
+            System.out.println(key + " = " + getenv.get(key));
+        }
     }
 }
